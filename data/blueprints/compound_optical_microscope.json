@@ -1,0 +1,425 @@
+{
+  "title": "Compound Optical Microscope",
+  "subtitle": "4 SUB-ASSEMBLIES LOADED",
+  "overview": "A compound optical microscope is a scientific instrument used to magnify tiny objects by combining two or more lenses, typically including a objective lens and an eyepiece.",
+  "parts": [
+    {
+      "id": "primary_stand",
+      "name": "Primary Stand",
+      "role": "Supports the entire microscope assembly",
+      "topology": "structural_frame",
+      "color": "#ff0000",
+      "assembledPos": [
+        0.211,
+        -0.988,
+        0.193
+      ],
+      "explodedVec": [
+        0.751,
+        -1.173,
+        -0.332
+      ],
+      "rotSpeed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "summary": [
+        "The primary stand is the main structural frame that holds the microscope together.",
+        "It provides stability and support for the entire microscope."
+      ],
+      "principle": "Mechanical stability",
+      "candidates": [],
+      "meshUrl": "/api/mesh/primary_stand.ply",
+      "textureUrl": null,
+      "normalMapUrl": null,
+      "verification": {
+        "plausible": false,
+        "confidence": 0.0,
+        "shape_summary": "none",
+        "reason": "No verified photographic candidate available for 3D reconstruction."
+      },
+      "verified3D": false,
+      "usedHarmonicFallback": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.89,
+        0.661,
+        1.0
+      ],
+      "isMasterShell": false
+    },
+    {
+      "id": "objective_lens",
+      "name": "Objective Lens",
+      "role": "Magnifies the sample",
+      "topology": "cylindrical_core",
+      "color": "#00ff00",
+      "assembledPos": [
+        -0.211,
+        0.398,
+        -0.786
+      ],
+      "explodedVec": [
+        -0.556,
+        0.452,
+        -1.28
+      ],
+      "rotSpeed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "summary": [
+        "The objective lens is the first lens in the optical path, located at the front end of the microscope.",
+        "It magnifies the sample being viewed."
+      ],
+      "principle": "Optical magnification",
+      "candidates": [
+        {
+          "title": "Loupe-binoculaire-p1030891.jpg",
+          "canonicalFile": "File:Loupe-binoculaire-p1030891.jpg",
+          "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Loupe-binoculaire-p1030891.jpg/1280px-Loupe-binoculaire-p1030891.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Loupe-binoculaire-p1030891.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+          "mime": "image/jpeg",
+          "caption": "Wikipedia Lead Image (Objective (optics))",
+          "width": 1024,
+          "height": 760,
+          "origWidth": 2535,
+          "origHeight": 1882,
+          "sourceTier": 1,
+          "sourceLabel": "wikipedia_lead",
+          "tierRank": 0,
+          "aspectRatio": 1.347,
+          "stage1Score": 1.0,
+          "cvMetrics": {
+            "edgeDensity": 0.2281,
+            "laplacianVar": 0.01672,
+            "otsuSeparability": 0.6902,
+            "otsuValleyFrac": 0.4189,
+            "bimodalExtremeFrac": 0.1692,
+            "midtoneFrac": 0.7182,
+            "borderUniformity": 0.247,
+            "borderLabDelta": 4.01,
+            "colorEntropy": 4.518,
+            "lumEntropy": 5.781,
+            "meanChromaLab": 9.3,
+            "meanSaturation": 0.1799,
+            "colorfulFrac": 0.7118,
+            "hasTransparentBorder": false,
+            "cvScore": 0.4686,
+            "rejected": false,
+            "rejectReason": null
+          },
+          "stage2Score": 0.4686,
+          "clipScore": {
+            "posLogit": 32.472,
+            "photoLogit": 26.035,
+            "negLogit": 20.829,
+            "margin": 11.643,
+            "subjMargin": 11.643,
+            "photoMargin": 5.206,
+            "subjVsPhotoMargin": 6.436,
+            "photoProb": 0.9945,
+            "subjProb": 1.0,
+            "subjVsPhotoProb": 0.9984,
+            "cosSubjMargin": 0.1164,
+            "cosSubjVsPhoto": 0.0644,
+            "isPhotoPass": true,
+            "isSubjMatch": true,
+            "combinedScore": 1.1924
+          },
+          "stage3Score": 1.1924,
+          "judgeScores": {
+            "completeness": 9,
+            "single_subject": 8,
+            "clean_background": 7,
+            "is_photograph": 8,
+            "matches_query": 8
+          },
+          "judgeTotal": 40.0,
+          "judgeReason": "The image shows two objective lenses from a compound optical microscope, each labeled with brand names and magnification specifications.",
+          "judgeMediaType": "real_camera_photograph",
+          "judgeSubjectScope": "isolated_target",
+          "isVlmEvaluated": true,
+          "isVlmRejected": false,
+          "isVlmPick": true,
+          "stage4RankKey": 40.0
+        }
+      ],
+      "meshUrl": "/api/mesh/objective_lens.ply",
+      "textureUrl": null,
+      "normalMapUrl": null,
+      "referenceImage": {
+        "title": "Loupe-binoculaire-p1030891.jpg",
+        "canonicalFile": "File:Loupe-binoculaire-p1030891.jpg",
+        "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Loupe-binoculaire-p1030891.jpg/1280px-Loupe-binoculaire-p1030891.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Loupe-binoculaire-p1030891.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+        "mime": "image/jpeg",
+        "caption": "Wikipedia Lead Image (Objective (optics))",
+        "width": 1024,
+        "height": 760,
+        "origWidth": 2535,
+        "origHeight": 1882,
+        "sourceTier": 1,
+        "sourceLabel": "wikipedia_lead",
+        "tierRank": 0,
+        "aspectRatio": 1.347,
+        "stage1Score": 1.0,
+        "cvMetrics": {
+          "edgeDensity": 0.2281,
+          "laplacianVar": 0.01672,
+          "otsuSeparability": 0.6902,
+          "otsuValleyFrac": 0.4189,
+          "bimodalExtremeFrac": 0.1692,
+          "midtoneFrac": 0.7182,
+          "borderUniformity": 0.247,
+          "borderLabDelta": 4.01,
+          "colorEntropy": 4.518,
+          "lumEntropy": 5.781,
+          "meanChromaLab": 9.3,
+          "meanSaturation": 0.1799,
+          "colorfulFrac": 0.7118,
+          "hasTransparentBorder": false,
+          "cvScore": 0.4686,
+          "rejected": false,
+          "rejectReason": null
+        },
+        "stage2Score": 0.4686,
+        "clipScore": {
+          "posLogit": 32.472,
+          "photoLogit": 26.035,
+          "negLogit": 20.829,
+          "margin": 11.643,
+          "subjMargin": 11.643,
+          "photoMargin": 5.206,
+          "subjVsPhotoMargin": 6.436,
+          "photoProb": 0.9945,
+          "subjProb": 1.0,
+          "subjVsPhotoProb": 0.9984,
+          "cosSubjMargin": 0.1164,
+          "cosSubjVsPhoto": 0.0644,
+          "isPhotoPass": true,
+          "isSubjMatch": true,
+          "combinedScore": 1.1924
+        },
+        "stage3Score": 1.1924,
+        "judgeScores": {
+          "completeness": 9,
+          "single_subject": 8,
+          "clean_background": 7,
+          "is_photograph": 8,
+          "matches_query": 8
+        },
+        "judgeTotal": 40.0,
+        "judgeReason": "The image shows two objective lenses from a compound optical microscope, each labeled with brand names and magnification specifications.",
+        "judgeMediaType": "real_camera_photograph",
+        "judgeSubjectScope": "isolated_target",
+        "isVlmEvaluated": true,
+        "isVlmRejected": false,
+        "isVlmPick": true,
+        "stage4RankKey": 40.0
+      },
+      "verification": {
+        "plausible": false,
+        "confidence": 0.2,
+        "shape_summary": "The 3D reconstruction appears to be a cylindrical object with slight variations in thickness across the three views. The",
+        "reason": "The front silhouette and side/rear depth do not perfectly match the expected shape of an 'Objective Lens of Compound Optical Microscope.' The object seems to have collapsed into a ",
+        "diagnostics": {
+          "vertexCount": 32437,
+          "faceCount": 64874,
+          "componentCount": 1,
+          "largestComponentFrac": 1.0,
+          "pcaFlatness": 0.5012,
+          "pcaCrossFlatness": 0.7192,
+          "pcaPlanarity": 0.1957,
+          "pcaElongation": 1.435,
+          "solidity": 0.7068,
+          "isWatertight": true
+        }
+      },
+      "verified3D": false,
+      "usedHarmonicFallback": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.999,
+        1.0,
+        0.851
+      ],
+      "isMasterShell": false
+    },
+    {
+      "id": "eyepiece",
+      "name": "Eyepiece",
+      "role": "Magnifies the image",
+      "topology": "cylindrical_core",
+      "color": "#0000ff",
+      "assembledPos": [
+        0.0,
+        0.779,
+        0.394
+      ],
+      "explodedVec": [
+        0.343,
+        1.32,
+        0.578
+      ],
+      "rotSpeed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "summary": [
+        "The eyepiece is the second lens in the optical path, located at the back end of the microscope.",
+        "It magnifies the image formed by the objective lens."
+      ],
+      "principle": "Optical magnification",
+      "candidates": [],
+      "meshUrl": "/api/mesh/eyepiece.ply",
+      "textureUrl": null,
+      "normalMapUrl": null,
+      "verification": {
+        "plausible": false,
+        "confidence": 0.0,
+        "shape_summary": "none",
+        "reason": "No verified photographic candidate available for 3D reconstruction."
+      },
+      "verified3D": false,
+      "usedHarmonicFallback": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.974,
+        1.0,
+        0.99
+      ],
+      "isMasterShell": false
+    },
+    {
+      "id": "stage",
+      "name": "Stage",
+      "role": "Supports the sample",
+      "topology": "contoured_solid",
+      "color": "#ffff00",
+      "assembledPos": [
+        0.0,
+        -0.189,
+        0.199
+      ],
+      "explodedVec": [
+        -0.537,
+        -0.647,
+        1.148
+      ],
+      "rotSpeed": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "summary": [
+        "The stage is the platform that holds the sample being observed.",
+        "It allows for precise positioning and adjustment of the sample."
+      ],
+      "principle": "Mechanical stability",
+      "candidates": [],
+      "meshUrl": "/api/mesh/stage.ply",
+      "textureUrl": null,
+      "normalMapUrl": null,
+      "verification": {
+        "plausible": false,
+        "confidence": 0.0,
+        "shape_summary": "none",
+        "reason": "No verified photographic candidate available for 3D reconstruction."
+      },
+      "verified3D": false,
+      "usedHarmonicFallback": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.667,
+        0.816,
+        1.0
+      ],
+      "isMasterShell": false
+    }
+  ],
+  "queryPrompt": "Compound Optical Microscope",
+  "wikiSummary": {
+    "title": "Compound Optical Microscope",
+    "description": "",
+    "extract": "",
+    "thumbnail": null,
+    "originalImage": null,
+    "pageUrl": "",
+    "commonsCategory": null
+  },
+  "references": [],
+  "candidates": [],
+  "funnelStats": {
+    "rawCount": 0,
+    "stage1Count": 0,
+    "stage2Count": 0,
+    "stage3Count": 0,
+    "stage4Count": 0,
+    "elapsedSec": 1.05
+  },
+  "operatingMode": {
+    "mode": "rescue_webcam_prompt",
+    "gateRequired": false,
+    "gateTimeoutMs": 0,
+    "allowWebcamRescue": true,
+    "telemetry": {
+      "candidateCount": 0,
+      "verifiedCount": 0,
+      "fallbackCount": 0,
+      "hasUserPreferred": false,
+      "topScore": null,
+      "secondScore": null,
+      "scoreMargin": null,
+      "topMatchScore": null,
+      "topPhotoScore": null,
+      "topIsRejected": false,
+      "topClipPhotoProb": null,
+      "topClipSubjMargin": null
+    },
+    "reason": "Zero photographic candidates survived Stages 1-4."
+  },
+  "geometryValidation": {
+    "status": "PASSED_WITH_AUTO_REPAIR",
+    "containment_violations": 0,
+    "intersection_violations": 6,
+    "separation_violations": 18,
+    "primary_assembly_axis": "X",
+    "axis_explained_variance": 0.34,
+    "layout_mode": "spatial_3d",
+    "master_shell": null,
+    "repairs_count": 11,
+    "repairs": [
+      "[COLLISION DETECTED] Volumetric overlap between 'Primary Stand' and 'Objective Lens' (Overlap Ratio: 85.1%).",
+      "[COLLISION DETECTED] Volumetric overlap between 'Primary Stand' and 'Eyepiece' (Overlap Ratio: 99.0%).",
+      "[COLLISION DETECTED] Volumetric overlap between 'Primary Stand' and 'Stage' (Overlap Ratio: 81.0%).",
+      "[COLLISION DETECTED] Volumetric overlap between 'Objective Lens' and 'Eyepiece' (Overlap Ratio: 97.5%).",
+      "[COLLISION DETECTED] Volumetric overlap between 'Objective Lens' and 'Stage' (Overlap Ratio: 85.1%).",
+      "[COLLISION DETECTED] Volumetric overlap between 'Eyepiece' and 'Stage' (Overlap Ratio: 99.0%).",
+      "[REPAIR: 3D MTV RELAXATION] Resolved 18 3D overlap step(s) across 4 bodies preserving 3D spatial layout (min gap 0.06m).",
+      "[REPAIR: S2 DISASSEMBLY FIELD] Computed distinct S^2 trajectory for 'Primary Stand': [0.751, -1.173, -0.332].",
+      "[REPAIR: S2 DISASSEMBLY FIELD] Computed distinct S^2 trajectory for 'Objective Lens': [-0.556, 0.452, -1.28].",
+      "[REPAIR: S2 DISASSEMBLY FIELD] Computed distinct S^2 trajectory for 'Eyepiece': [0.343, 1.32, 0.578].",
+      "[REPAIR: S2 DISASSEMBLY FIELD] Computed distinct S^2 trajectory for 'Stage': [-0.537, -0.647, 1.148]."
+    ]
+  }
+}

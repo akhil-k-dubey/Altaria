@@ -1,0 +1,21 @@
+{
+  "name": "mark-holo-cad",
+  "version": "1.0.0",
+  "description": "M.A.R.K. HOLO-CAD // 3D Reverse-Engineering & Concept Learning Lab",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "start": "python3 server.py --open",
+    "serve": "python3 server.py",
+    "dev": "python3 server.py --open"
+  },
+  "keywords": [
+    "threejs",
+    "mediapipe",
+    "hologram",
+    "cad",
+    "reverse-engineering"
+  ],
+  "author": "",
+  "license": "MIT"
+}

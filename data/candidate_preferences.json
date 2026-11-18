@@ -1,0 +1,42 @@
+{
+  "turbofan_jet_engine": {
+    "query": "Turbofan Jet Engine",
+    "part_id": "__master__",
+    "title": "Rolls Royce Conway turbofan jet engine.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Rolls_Royce_Conway_turbofan_jet_engine.jpg/960px-Rolls_Royce_Conway_turbofan_jet_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Rolls_Royce_Conway_turbofan_jet_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/jpeg",
+    "caption": "Rolls Royce Conway turbofan jet engine.jpg",
+    "updatedAt": 1794219447
+  },
+  "turbofan_jet_engine::engine_housing": {
+    "query": "Turbofan Jet Engine",
+    "part_id": "engine_housing",
+    "title": "Rolls Royce Conway turbofan jet engine.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Rolls_Royce_Conway_turbofan_jet_engine.jpg/960px-Rolls_Royce_Conway_turbofan_jet_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Rolls_Royce_Conway_turbofan_jet_engine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/jpeg",
+    "caption": "Rolls Royce Conway turbofan jet engine.jpg",
+    "updatedAt": 1794219447
+  },
+  "human_heart_cardiac_chambers": {
+    "query": "Human Heart & Cardiac Chambers",
+    "part_id": "__master__",
+    "title": "Basecuore.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Basecuore.jpg/960px-Basecuore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Basecuore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/jpeg",
+    "caption": "Basecuore.jpg",
+    "updatedAt": 1794660693
+  },
+  "human_heart_cardiac_chambers::atrial_sinus": {
+    "query": "Human Heart & Cardiac Chambers",
+    "part_id": "atrial_sinus",
+    "title": "Basecuore.jpg",
+    "thumbUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Basecuore.jpg/960px-Basecuore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Basecuore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "mime": "image/jpeg",
+    "caption": "Basecuore.jpg",
+    "updatedAt": 1794660693
+  }
+}

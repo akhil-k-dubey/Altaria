@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#04142c" />
+      <stop offset="100%" stop-color="#02060d" />
+    </radialGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#0077ff" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background rounded rectangle -->
+  <rect width="256" height="256" rx="48" fill="url(#bgGrad)" stroke="#00f3ff" stroke-width="3" stroke-opacity="0.4" />
+
+  <!-- Ambient Glow -->
+  <circle cx="128" cy="128" r="90" fill="url(#glowGrad)" />
+
+  <!-- Tech Circles and Reticles -->
+  <circle cx="128" cy="128" r="80" fill="none" stroke="#00f3ff" stroke-width="2" stroke-dasharray="8 6" opacity="0.6" />
+  <circle cx="128" cy="128" r="64" fill="none" stroke="#0077ff" stroke-width="3" stroke-dasharray="24 12" />
+  <circle cx="128" cy="128" r="48" fill="none" stroke="#ffaa00" stroke-width="2" opacity="0.8" />
+
+  <!-- Center Core -->
+  <polygon points="128,96 156,112 156,144 128,160 100,144 100,112" fill="none" stroke="#00f3ff" stroke-width="3" filter="url(#glow)" />
+  <circle cx="128" cy="128" r="10" fill="#ffffff" filter="url(#glow)" />
+
+  <!-- Crosshairs -->
+  <line x1="128" y1="28" x2="128" y2="52" stroke="#00f3ff" stroke-width="3" />
+  <line x1="128" y1="204" x2="128" y2="228" stroke="#00f3ff" stroke-width="3" />
+  <line x1="28" y1="128" x2="52" y2="128" stroke="#00f3ff" stroke-width="3" />
+  <line x1="204" y1="128" x2="228" y2="128" stroke="#00f3ff" stroke-width="3" />
+</svg>

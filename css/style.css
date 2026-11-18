@@ -1,0 +1,192 @@
+:root {
+  --stark-cyan: #00f3ff;
+  --stark-blue: #0077ff;
+  --stark-amber: #ffaa00;
+  --stark-bg: #02060d;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--stark-bg);
+  color: #e0f7ff;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-display {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.font-mono-tech {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Subtle Holographic Scanlines & Vignette */
+.holo-overlay {
+  background:
+    radial-gradient(circle at 50% 50%, transparent 45%, rgba(1, 4, 10, 0.85) 100%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(0, 243, 255, 0.018) 0px,
+      rgba(0, 243, 255, 0.018) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+  pointer-events: none;
+}
+
+/* Glassmorphic Stark HUD Panels */
+.hud-panel {
+  background: rgba(4, 14, 28, 0.76);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 243, 255, 0.28);
+  box-shadow: 0 0 24px rgba(0, 243, 255, 0.08), inset 0 0 15px rgba(0, 243, 255, 0.04);
+}
+
+.hud-panel-amber {
+  background: rgba(18, 12, 4, 0.84);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 170, 0, 0.55);
+  box-shadow: 0 0 28px rgba(255, 170, 0, 0.16), inset 0 0 16px rgba(255, 170, 0, 0.06);
+}
+
+/* Corner Tech Brackets */
+.tech-corners {
+  position: relative;
+}
+.tech-corners::before,
+.tech-corners::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-color: var(--stark-cyan);
+  pointer-events: none;
+}
+.tech-corners::before {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid var(--stark-cyan);
+  border-left: 2px solid var(--stark-cyan);
+}
+.tech-corners::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid var(--stark-cyan);
+  border-right: 2px solid var(--stark-cyan);
+}
+
+/* Custom Range Slider for Explosion Scalar */
+input[type="range"].stark-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  background: linear-gradient(90deg, rgba(0, 243, 255, 0.25) 0%, rgba(255, 170, 0, 0.45) 100%);
+  border-radius: 999px;
+  outline: none;
+  border: 1px solid rgba(0, 243, 255, 0.35);
+}
+
+input[type="range"].stark-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #020813;
+  border: 2px solid var(--stark-cyan);
+  box-shadow: 0 0 12px var(--stark-cyan), inset 0 0 6px var(--stark-cyan);
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+input[type="range"].stark-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.18);
+  border-color: var(--stark-amber);
+  box-shadow: 0 0 16px var(--stark-amber), inset 0 0 6px var(--stark-amber);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(2, 8, 18, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 243, 255, 0.35);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 243, 255, 0.7);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.65; }
+  50% { opacity: 1; }
+}
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 24s linear infinite;
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 10px rgba(0, 243, 255, 0.6);
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 10px rgba(255, 170, 0, 0.65);
+}
+
+/* Pre-Generation Human Gate Countdown Bar */
+.gate-progress-track {
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(2, 12, 24, 0.9);
+  border: 1px solid rgba(0, 243, 255, 0.25);
+  overflow: hidden;
+}
+
+.gate-progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--stark-cyan), var(--stark-amber));
+  box-shadow: 0 0 10px rgba(0, 243, 255, 0.55);
+  transition: width 70ms linear, background 0.2s ease;
+}
+
+#escape-hatch-gate-bar.gate-paused {
+  border-color: rgba(255, 170, 0, 0.55);
+  box-shadow: 0 0 12px rgba(255, 170, 0, 0.18);
+}
+
+#escape-hatch-gate-bar.gate-paused .gate-progress-fill {
+  background: linear-gradient(90deg, #ffaa00, #fde68a);
+  box-shadow: 0 0 12px rgba(255, 170, 0, 0.7);
+}

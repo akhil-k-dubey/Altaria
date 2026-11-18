@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Generated data (runtime caches — large binary files)
+shap_e_model_cache/
+data/cache_images/
+data/meshes/
+data/textures/
+data/references/
+data/models/
+data/wasm/
+
+# Keep blueprints (small JSON design files)
+# !data/blueprints/
+
+# Node
+node_modules/
+package-lock.json
+
+# Environment & secrets
+.env
+.env.*
+*.secret
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
